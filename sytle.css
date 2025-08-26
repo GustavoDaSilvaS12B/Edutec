@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.nav {
+    padding: 20px;
+    color: white;
+  }
+
 @font-face{
     font-family: Minecraftia;
     src: url('fonts/Minecraftia.ttf') format('truetype');
@@ -18,9 +23,13 @@ body{
 }
 
 .quiz{
-   background: #626971;
+   background: #C6C6C6;
 }
 
 .quiz h1{
       color: #F5F5F5;
+}
+
+img{
+    
 }
