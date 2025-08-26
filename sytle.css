@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Minecraftia;
+    src: url('fonts/Minecraftia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Minecraftia, sans-serif;
+    background: #011428;
+}
+
+.quiz{
+   background: #626971;
+}
+
+.quiz h1{
+      color: #F5F5F5;
+}
