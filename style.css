@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color: #011428;
+}
+
+.Logo {
+    width: 4.8rem;
+    height: 4rem;
+    margin-top: 0.4rem;
+    margin-right: 10.12rem;
+
+}
+
+.navegacao {
+    gap: 10rem;
+    display: flex;
+    width: 70rem;
+    height: 6.25rem;
+    justify-content: space-between;
+    margin-left: 12.18rem;
+    gap: 6.5rem;
+    /* 40px */
+    padding: 0.625rem 0;
+    /* 10px top/bottom */
+    margin-left: 10.12rem;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 900;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 1.5rem;
+}
+
+.login {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    color: #fff;
+    height: 2.25rem;
+    padding-inline: 2rem;
+    margin-top: 1rem;
+    margin-left: 10.12rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.logo-quiz {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    height: 9.25rem;
+}
+
+.caixa {
+    width: 859px;
+    height: 302px;
+    border-radius: 0.4375rem;
+    background: #C6C6C6;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.enunciado1 {
+    width: 810px;
+    height: 205px;
+    flex-shrink: 0;
+    background: #011428;
+}
