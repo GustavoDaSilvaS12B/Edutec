@@ -71,12 +71,9 @@ a {
 .caixa {
     width: 859px;
     height: 302px;
-    border-radius: 0.4375rem;
+    flex-shrink: 0;
+    border-radius: 7px;
     background: #C6C6C6;
-    padding: 20px 40px;
-    border-radius: 8px;
-    text-align: center;
-    margin-inline: auto;
 }
 
 .enunciado1 {
