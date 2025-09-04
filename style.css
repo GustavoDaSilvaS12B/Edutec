@@ -69,16 +69,82 @@ a {
 }
 
 .caixa {
-    width: 859px;
-    height: 302px;
-    flex-shrink: 0;
-    border-radius: 7px;
+    width: 53.688rem;
+    height: 18.875rem;
+    border-radius: 0.4375rem;
     background: #C6C6C6;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-inline: auto;
 }
 
 .enunciado1 {
-    width: 810px;
-    height: 205px;
+    display: flex;
+    justify-content: center;
+    height: 12.813rem;
     flex-shrink: 0;
     background: #011428;
+}
+
+.enunciado1,
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+
+.questãotemperado {
+    width: 29rem;
+    height: 4.75rem;
+    flex-shrink: 0;
+    border: 3px solid #000;
+    background: #6F6F6F;
+}
+
+.questãotropumido {
+    width: 29rem;
+    height: 4.75rem;
+    flex-shrink: 0;
+    border: 3px solid #000;
+    background: #6F6F6F;
+}
+
+.questãodesertico {
+    width: 29rem;
+    height: 4.75rem;
+    flex-shrink: 0;
+    border: 3px solid #000;
+    background: #6F6F6F;
+}
+
+.questãopolar {
+    width: 29rem;
+    height: 4.75rem;
+    flex-shrink: 0;
+    border: 3px solid #000;
+    background: #6F6F6F;
+}
+
+.questao1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.botoes {
+    width: 250px;
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Minecraft', sans-serif; /* Se estiver usando essa fonte */
+    cursor: pointer;
 }
