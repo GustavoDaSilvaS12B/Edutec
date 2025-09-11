@@ -8,6 +8,7 @@ body {
     width: auto;
     height: auto;
     background-color: #011428;
+    overflow-x: hidden;
 }
 
 .Logo {
@@ -26,9 +27,7 @@ body {
     justify-content: space-between;
     margin-left: 12.18rem;
     gap: 6.5rem;
-    /* 40px */
     padding: 0.625rem 0;
-    /* 10px top/bottom */
     margin-left: 10.12rem;
 }
 
@@ -97,7 +96,7 @@ h2 {
     margin: 0;
 }
 
-.questãotemperado {
+.botao {
     width: 15.625rem;
     padding: 0.938rem;
     flex-shrink: 0;
@@ -106,66 +105,48 @@ h2 {
     cursor: pointer;
     text-align: center;
     transition: all 0.3s;
-}
-
-.questãotropumido {
-    width: 15.625rem;
-    padding: 0.938rem;
-    flex-shrink: 0;
-    border: 0.188rem solid #000;
-    background: #6F6F6F;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s;
-}
-
-.questãodesertico {
-    width: 15.625rem;
-    padding: 0.938rem;
-    flex-shrink: 0;
-    border: 0.188rem solid #000;
-    background: #6F6F6F;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s;
-}
-
-.questãopolar {
-    width: 15.625rem;
-    padding: 0.938rem;
-    flex-shrink: 0;
-    border: 0.188rem solid #000;
-    background: #6F6F6F;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s;
+    color: #FFF;                                                 
 }
 
 .questao1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.25rem; /* Espaço entre os botões */
+    gap: 1.25rem;
     max-width: 37.5rem;
-    margin: 0 auto; /* Centraliza o container */
+    margin: 0 auto;
 }
 
-.questãotropumido:hover:not([disabled]){
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#proximo-botao {
+    width: 8rem;
+    height: 1.5rem;
+    background: #0F66A3;
+    cursor: pointer;
+    color: #fff;
+    margin-inline: auto;
+    bottom: 2rem;
+    position: absolute;
+}
+
+.botao:hover:not([disabled]) {
     background: #20232A;
     color: #fff;
 }
 
-.questãotemperado:hover:not([disabled]){
-    background: #20232A;
-    color: #fff;
+
+.botao:disabled{
+    cursor: no-drop;
 }
 
-.questãopolar:hover:not([disabled]){
-    background: #20232A;
-    color: #fff;
+.certa{
+    background: #318B55;
 }
 
-.questãodesertico:hover:not([disabled]){
-    background: #20232A;
-    color: #fff;
+.errada{
+    background: #A91515;
 }

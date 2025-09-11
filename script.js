@@ -60,11 +60,25 @@ function startQuiz() {
     showQuestion();
 }
 
-function resetState(){
-    nextButton.Button.style.display = "none"
-}
+/*function resetState(){
+    nextButton.style.display = "none"
+    while (answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}*/
 
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+    currentQuestion.answers.forEach ((answer) => {
+        const button = document.createElement("button")
+        button.innerHTML = answer.text;
+        button.dataset.id = answer.id;
+        button.classList.add("botao")
+        answerButtons.appendChild(button);
+    })
 }
+
+startQuiz();
