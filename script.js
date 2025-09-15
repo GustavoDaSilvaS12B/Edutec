@@ -76,9 +76,15 @@ function showQuestion() {
         const button = document.createElement("button")
         button.innerHTML = answer.text;
         button.dataset.id = answer.id;
-        button.classList.add("botao")
+        button.classList.add("botao");
+        button.addEventListener("click", selectResposta);
         answerButtons.appendChild(button);
-    })
+    });
+}
+
+function selectResposta(e) {
+    resposta = questions[currentQuestionIndex].resposta;
+    const certaResposta = reposta.filter((resposta))
 }
 
 startQuiz();
